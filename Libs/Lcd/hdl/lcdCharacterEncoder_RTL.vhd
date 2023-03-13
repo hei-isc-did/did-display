@@ -18,6 +18,8 @@ ARCHITECTURE Encoder OF lcdCharacterEncoder IS
   
   signal pageCounter        : unsigned(requiredBitNb(lcdPageNb)-1 downto 0);
   signal columnCounter      : unsigned(requiredBitNb(lcdColumnNb)-1 downto 0);
+  signal columnCounterHigh  : std_ulogic_vector(columnCounter'high downto columnCounter'length/2);
+  signal columnCounterLow   : std_ulogic_vector(columnCounter'high downto columnCounter'length/2);
 
   signal A0                 : std_ulogic;
   
@@ -26,6 +28,7 @@ ARCHITECTURE Encoder OF lcdCharacterEncoder IS
   signal pixelColumnLow   : std_ulogic_vector(fontRowNb-1 downto 0);
   
 BEGIN
+
   ------------------------------------------------------------------------------
                                                                    -- diplay FSM
   fontDisplaySequencer: process(reset, clock)
@@ -93,6 +96,7 @@ BEGIN
       end if;
     end if;
   end process asciiCountColums;
+
   ------------------------------------------------------------------------------
                                                          -- page, column counter
   counter: process(reset, clock)
@@ -134,7 +138,7 @@ BEGIN
           when 24 =>   -- CAN (cancel) (clear display)
             clearDisplay <= '1';
           when others =>
-            if asciiData >= x"20" then -- normal ascii char
+            if unsigned(asciiData) >= unsigned(std_logic_vector'(x"20")) then -- normal ascii char
               columnCounter <= columnCounter + fontColumnNb;
             end if;
         end case;
@@ -147,6 +151,7 @@ BEGIN
       (lcdBusy = '0') and
       (asciiColumnCounter > 0)
     else '0';
+
   ------------------------------------------------------------------------------
                                                                      -- Ram Data
   pixelOffset <= resize(
@@ -154,27 +159,30 @@ BEGIN
     pixelOffset'length
   ) when asciiColumnCounter > 0
     else (others => '0');
+
   pixelPage <= 
     pixelData(
       to_integer(pixelOffset) + fontRowNb-1 downto
       to_integer(pixelOffset) + lcdPageBitNb
     ) &
     std_ulogic_vector(resize(pageCounter,lcdPageBitNb));
+
   pixelColumnHigh <=
     pixelData(
       to_integer(pixelOffset) + fontRowNb-1 downto
       to_integer(pixelOffset) + (lcdColumnBitNb/2)
-    ) &
-    std_ulogic_vector(columnCounter(
-      columnCounter'high downto (columnCounter'length/2)
+    ) & columnCounterHigh;
+  columnCounterHigh <= std_ulogic_vector(columnCounter(
+      columnCounter'high downto columnCounter'length/2
     ));
+
   pixelColumnLow <=
     pixelData(
       to_integer(pixelOffset) + fontRowNb-1 downto
       to_integer(pixelOffset) + (lcdColumnBitNb/2)
-    ) &
-    std_ulogic_vector(columnCounter(
-      (columnCounter'length/2)-1 downto columnCounter'low
+    ) & columnCounterLow;
+  columnCounterLow <= std_ulogic_vector(columnCounter(
+      columnCounter'length/2-1 downto columnCounter'low
     ));
 
   buildLcdData: process(

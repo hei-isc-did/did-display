@@ -133,23 +133,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hdl"
+value "C:\\dev\\did-chrono\\Libs\\Lcd\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hds"
+value "C:\\dev\\did-chrono\\Libs\\Lcd\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hds\\lcd@controller\\struct.bd.info"
+value "C:\\dev\\did-chrono\\Libs\\Lcd\\hds\\lcd@controller\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hds\\lcd@controller\\struct.bd.user"
+value "C:\\dev\\did-chrono\\Libs\\Lcd\\hds\\lcd@controller\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hds"
+value "C:\\dev\\did-chrono\\Libs\\Lcd\\hds"
 )
 (vvPair
 variable "appl"
@@ -169,27 +169,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hds\\lcd@controller"
+value "C:\\dev\\did-chrono\\Libs\\Lcd\\hds\\lcd@controller"
 )
 (vvPair
 variable "d_logical"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hds\\lcdController"
+value "C:\\dev\\did-chrono\\Libs\\Lcd\\hds\\lcdController"
 )
 (vvPair
 variable "date"
-value "14.10.2019"
+value "13.03.2023"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "13"
 )
 (vvPair
 variable "designName"
@@ -217,11 +217,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "silvan.zahno"
+value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.10.2019"
+value "13.03.2023"
 )
 (vvPair
 variable "graphical_source_group"
@@ -229,11 +229,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE6996"
+value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:35:46"
+value "10:58:50"
 )
 (vvPair
 variable "group"
@@ -241,7 +241,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE6996"
+value "WE7860"
 )
 (vvPair
 variable "language"
@@ -277,7 +277,7 @@ value "U:\\ELN_Board\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "10"
+value "03"
 )
 (vvPair
 variable "module_name"
@@ -285,19 +285,19 @@ value "lcdController"
 )
 (vvPair
 variable "month"
-value "Oct"
+value "mars"
 )
 (vvPair
 variable "month_long"
-value "October"
+value "mars"
 )
 (vvPair
 variable "p"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hds\\lcd@controller\\struct.bd"
+value "C:\\dev\\did-chrono\\Libs\\Lcd\\hds\\lcd@controller\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Libs\\Lcd\\hds\\lcdController\\struct.bd"
+value "C:\\dev\\did-chrono\\Libs\\Lcd\\hds\\lcdController\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -377,7 +377,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "10:35:46"
+value "10:58:50"
 )
 (vvPair
 variable "unit"
@@ -385,7 +385,7 @@ value "lcdController"
 )
 (vvPair
 variable "user"
-value "silvan.zahno"
+value "axel.amand"
 )
 (vvPair
 variable "version"
@@ -397,11 +397,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2019"
+value "2023"
 )
 (vvPair
 variable "yy"
-value "19"
+value "23"
 )
 ]
 )
@@ -737,8 +737,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,56300,-63400,57300"
-st "reset        : std_ulogic
-"
+st "reset        : std_ulogic"
 )
 )
 *13 (PortIoOut
@@ -985,8 +984,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,57300,-63700,58300"
-st "SI           : std_ulogic
-"
+st "SI           : std_ulogic"
 )
 )
 *19 (Net
@@ -1003,8 +1001,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,58300,-63300,59300"
-st "SCL          : std_ulogic
-"
+st "SCL          : std_ulogic"
 )
 )
 *20 (Net
@@ -1021,8 +1018,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,59300,-63500,60300"
-st "A0           : std_ulogic
-"
+st "A0           : std_ulogic"
 )
 )
 *21 (Net
@@ -1039,8 +1035,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,62300,-63400,63300"
-st "clock        : std_ulogic
-"
+st "clock        : std_ulogic"
 )
 )
 *22 (PortIoIn
@@ -1105,8 +1100,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,63300,-50600,64300"
-st "ascii        : std_ulogic_vector(asciiBitNb-1 downto 0)
-"
+st "ascii        : std_ulogic_vector(asciiBitNb-1 downto 0)"
 )
 )
 *24 (PortIoOut
@@ -1217,8 +1211,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,64300,-63200,65300"
-st "send         : std_ulogic
-"
+st "send         : std_ulogic"
 )
 )
 *27 (Net
@@ -1235,8 +1228,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,60300,-62800,61300"
-st "CS1_n        : std_ulogic
-"
+st "CS1_n        : std_ulogic"
 )
 )
 *28 (Net
@@ -1253,8 +1245,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,61300,-62800,62300"
-st "RST_n        : std_ulogic
-"
+st "RST_n        : std_ulogic"
 )
 )
 *29 (PortIoIn
@@ -1366,8 +1357,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,75100,-49300,76100"
-st "SIGNAL lcdData      : std_ulogic_vector(9-1 DOWNTO 0)
-"
+st "SIGNAL lcdData      : std_ulogic_vector(9-1 DOWNTO 0)"
 )
 )
 *32 (Net
@@ -1384,8 +1374,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,76100,-59700,77100"
-st "SIGNAL lcdSend      : std_ulogic
-"
+st "SIGNAL lcdSend      : std_ulogic"
 )
 )
 *33 (Net
@@ -1402,8 +1391,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,77100,-59800,78100"
-st "SIGNAL lcdBusy      : std_ulogic
-"
+st "SIGNAL lcdBusy      : std_ulogic"
 )
 )
 *34 (Net
@@ -1421,8 +1409,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,78100,-45200,79100"
-st "SIGNAL lcdData1     : std_ulogic_vector(lcdDataBitNb-1 downto 0)
-"
+st "SIGNAL lcdData1     : std_ulogic_vector(lcdDataBitNb-1 downto 0)"
 )
 )
 *35 (Net
@@ -1439,8 +1426,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,79100,-59500,80100"
-st "SIGNAL lcdSend1     : std_ulogic
-"
+st "SIGNAL lcdSend1     : std_ulogic"
 )
 )
 *36 (Net
@@ -1457,8 +1443,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,80100,-59600,81100"
-st "SIGNAL lcdBusy1     : std_ulogic
-"
+st "SIGNAL lcdBusy1     : std_ulogic"
 )
 )
 *37 (Net
@@ -1475,8 +1460,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,65300,-63200,66300"
-st "busy         : std_ulogic
-"
+st "busy         : std_ulogic"
 )
 )
 *38 (Net
@@ -1495,8 +1479,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,81100,-43000,82100"
-st "SIGNAL dataInA      : std_ulogic_vector(characterPixelNb-1 DOWNTO 0)
-"
+st "SIGNAL dataInA      : std_ulogic_vector(characterPixelNb-1 DOWNTO 0)"
 )
 )
 *39 (Net
@@ -1515,8 +1498,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,82100,-45700,83100"
-st "SIGNAL addressB     : std_ulogic_vector(asciiBitNb-1 DOWNTO 0)
-"
+st "SIGNAL addressB     : std_ulogic_vector(asciiBitNb-1 DOWNTO 0)"
 )
 )
 *40 (Net
@@ -1535,8 +1517,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,83100,-43000,84100"
-st "SIGNAL dataInB      : std_ulogic_vector(characterPixelNb-1 DOWNTO 0)
-"
+st "SIGNAL dataInB      : std_ulogic_vector(characterPixelNb-1 DOWNTO 0)"
 )
 )
 *41 (Net
@@ -1554,8 +1535,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,84100,-59600,85100"
-st "SIGNAL writeEnB     : std_ulogic
-"
+st "SIGNAL writeEnB     : std_ulogic"
 )
 )
 *42 (Net
@@ -1573,8 +1553,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,85100,-60100,86100"
-st "SIGNAL enB          : std_ulogic
-"
+st "SIGNAL enB          : std_ulogic"
 )
 )
 *43 (Net
@@ -1592,8 +1571,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,86100,-60000,87100"
-st "SIGNAL clockB       : std_ulogic
-"
+st "SIGNAL clockB       : std_ulogic"
 )
 )
 *44 (Net
@@ -1611,8 +1589,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,87100,-60100,88100"
-st "SIGNAL enA          : std_ulogic
-"
+st "SIGNAL enA          : std_ulogic"
 )
 )
 *45 (Net
@@ -1630,8 +1607,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,88100,-59600,89100"
-st "SIGNAL writeEnA     : std_ulogic
-"
+st "SIGNAL writeEnA     : std_ulogic"
 )
 )
 *46 (Net
@@ -1651,8 +1627,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,89100,-42900,90100"
-st "SIGNAL pixelData    : std_ulogic_vector(characterPixelNb-1 DOWNTO 0)
-"
+st "SIGNAL pixelData    : std_ulogic_vector(characterPixelNb-1 DOWNTO 0)"
 )
 )
 *47 (HdlText
@@ -3648,8 +3623,7 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "-74000,90100,-59500,91100"
-st "SIGNAL clearDisplay : std_ulogic
-"
+st "SIGNAL clearDisplay : std_ulogic"
 )
 )
 *109 (Wire
@@ -5025,7 +4999,7 @@ on &108
 bg "65535,65535,65535"
 grid (Grid
 origin "0,0"
-isVisible 1
+isVisible 0
 isActive 1
 xSpacing 1000
 xySpacing 1000
@@ -5131,8 +5105,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "208,38,1383,976"
-viewArea "-77939,-1818,60767,94402"
+windowSize "-8,-8,1928,1048"
+viewArea "-77996,-1866,96775,93091"
 cachedDiagramExtent "-76000,0,58000,90000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -5150,6 +5124,7 @@ unixPaperName "A4  (210mm x 297mm)"
 windowsPaperName "A4"
 windowsPaperType 9
 scale 55
+useAdjustTo 0
 exportedDirectories [
 "$HDS_PROJECT_DIR/HTMLExport"
 ]
@@ -5157,7 +5132,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-76000,0"
-lastUid 12996,0
+lastUid 13055,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
