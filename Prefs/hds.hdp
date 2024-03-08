@@ -1,0 +1,62 @@
+[Concat]
+Board = $HDS_PROJECT_DIR/../Board/concat
+Display = $HDS_PROJECT_DIR/../Display/concat
+Display_test = $HDS_PROJECT_DIR/../Display_test/concat
+[ModelSim]
+Board = $SCRATCH_DIR/$DESIGN_NAME/Board/work
+Common = $SCRATCH_DIR/Libraries/Common/work
+Display = $SCRATCH_DIR/$DESIGN_NAME/Display/work
+Display_test = $SCRATCH_DIR/$DESIGN_NAME/Display_test/work
+gates = $SCRATCH_DIR/Libraries/gates/work
+io = $SCRATCH_DIR/Libraries/IO/work
+Lattice = $SCRATCH_DIR/Libraries/Lattice/work
+LCD = $SCRATCH_DIR/Libraries/LCD/work
+Memory = $SCRATCH_DIR/Libraries/Memory/work
+sequential = $SCRATCH_DIR/Libraries/sequential/work
+Vga = $SCRATCH_DIR/Libraries/Vga/work
+[hdl]
+Board = $HDS_PROJECT_DIR/../Board/hdl
+Common = $HEI_LIBS_DIR/Common/hdl
+Display = $HDS_PROJECT_DIR/../Display/hdl
+Display_test = $HDS_PROJECT_DIR/../Display_test/hdl
+gates = $HEI_LIBS_DIR/Gates/hdl
+ieee = $HDS_HOME/hdl_libs/ieee/hdl
+io = $HEI_LIBS_DIR/IO/hdl
+Lattice = $HEI_LIBS_DIR/Lattice/hdl
+LCD = $HEI_LIBS_DIR/Lcd/hdl
+Memory = $HEI_LIBS_DIR/Memory/hdl
+sequential = $HEI_LIBS_DIR/Sequential/hdl
+std = $HDS_HOME/hdl_libs/std/hdl
+Vga = $HEI_LIBS_DIR/Vga/hdl
+[hds]
+Board = $HDS_PROJECT_DIR/../Board/hds
+Common = $HEI_LIBS_DIR/Common/hds
+Display = $HDS_PROJECT_DIR/../Display/hds
+Display_test = $HDS_PROJECT_DIR/../Display_test/hds
+gates = $HEI_LIBS_DIR/Gates/hds
+ieee = $HDS_HOME/hdl_libs/ieee/hds
+io = $HEI_LIBS_DIR/IO/hds
+Lattice = $HEI_LIBS_DIR/Lattice/hds
+LCD = $HEI_LIBS_DIR/Lcd/hds
+Memory = $HEI_LIBS_DIR/Memory/hds
+sequential = $HEI_LIBS_DIR/Sequential/hds
+std = $HDS_HOME/hdl_libs/std/hds
+Vga = $HEI_LIBS_DIR/Vga/hds
+[hds_settings]
+design_root = Board.EBS3(struct)@e@b@s3/struct.bd
+[library_files_inclusion]
+Display_test = all
+Lattice = all
+LCD = all
+Memory = all
+Vga = all
+[library_type]
+Board = regular
+ieee = standard
+Lattice = regular
+LCD = regular
+Memory = regular
+std = standard
+Vga = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

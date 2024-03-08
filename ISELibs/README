@@ -1,0 +1,9 @@
+# Unisim lib
+The Unisim lib is mandatory for the DCM (which creates the pixelClk) to work.
+
+## Install
+By default, the lib is installed on laboratory computers.
+
+If needed, one can build them by running **compxlib**.
+
+Else, while using the same tools as in labs, the zip content can be put under **C:\eda\Xilinx\14.7\ISE_DS\ISE\vhdl\xst\nt64\unisim**.

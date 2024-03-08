@@ -1,0 +1,85 @@
+#-------------------------------------------------------------------------------
+# Clock and reset
+#
+NET     "iGCK_clk_66"        LOC = "A10";
+NET     "iRST_rst_n"         LOC = "A15"     | PULLUP;
+NET     "i_testMode"         LOC = "T10"     | PULLDOWN;
+
+#-------------------------------------------------------------------------------
+# FPGA-EBS
+#
+NET     "o_led1"             LOC = "B16";
+NET     "o_led2"             LOC = "A16";
+
+#-------------------------------------------------------------------------------
+# HEB-BUTTONS
+#
+NET     "i_buttons_n<0>"     LOC = "F9" ;
+NET     "i_buttons_n<1>"     LOC = "G9" ;
+NET     "i_buttons_n<2>"     LOC = "F7" ;
+NET     "i_buttons_n<3>"     LOC = "E8" ;
+NET     "o_leds_n<1>"        LOC = "E7" ;
+NET     "o_leds_n<2>"        LOC = "B14";
+NET     "o_leds_n<3>"        LOC = "B13";
+NET     "o_leds_n<4>"        LOC = "B11";
+NET     "o_leds_n<5>"        LOC = "A8";
+NET     "o_leds_n<6>"        LOC = "C7";
+NET     "o_leds_n<7>"        LOC = "A14" ;
+NET     "o_leds_n<8>"        LOC = "A11" ;
+NET     "o_lcd_cs1_n"        LOC = "D7";
+NET     "o_lcd_scl"          LOC = "A13" ;
+NET     "o_lcd_si"           LOC = "E9" ;
+NET     "o_lcd_a0"           LOC = "F11";
+NET     "o_lcd_rst_n"        LOC = "F8";
+
+#-------------------------------------------------------------------------------
+# HEB-LCD V2
+#
+#NET     "i_buttons_n<0>"  LOC = "G9" ;
+#NET     "i_buttons_n<1>"  LOC = "F9" ;
+#NET     "i_buttons_n<2>"  LOC = "F7" ;
+#NET     "i_buttons_n<3>"  LOC = "F8" ;
+#NET     "o_leds_n<1>"     LOC = "E9" ;
+#NET     "o_leds_n<2>"     LOC = "A8";
+#NET     "o_leds_n<3>"     LOC = "F11";
+#NET     "o_leds_n<4>"     LOC = "B11";
+#NET     "o_leds_n<5>"     LOC = "B13";
+#NET     "o_leds_n<6>"     LOC = "B14";
+#NET     "o_leds_n<7>"     LOC = "E7" ;
+#NET     "o_leds_n<8>"     LOC = "E8" ;
+#NET     "o_lcd_cs1_n"     LOC = "A11";
+#NET     "o_lcd_scl"       LOC = "D7" ;
+#NET     "o_lcd_si"        LOC = "C7" ;
+#NET     "o_lcd_a0"        LOC = "A14";
+#NET     "o_lcd_rst_n"     LOC = "A13";
+
+#-------------------------------------------------------------------------------
+# VGA Interface
+#
+
+# PMOD - High
+#NET     "o_vga_int"     LOC = "C2";
+#NET     "o_vga_de"      LOC = "G3";
+#NET     "o_vga_pc"      LOC = "D2";
+#NET     "o_vga_hsync"   LOC = "F4";
+#NET     "o_vga_vsync"   LOC = "D5";
+#NET     "o_vga_rgb<0>"  LOC = "E2";
+#NET     "o_vga_rgb<1>"  LOC = "G5";
+#NET     "o_vga_rgb<2>"  LOC = "G4";
+
+# PMOD - Low
+NET     "o_vga_int"     LOC = "B6";
+NET     "o_vga_de"      LOC = "A4";
+NET     "o_vga_pc"      LOC = "G6";
+NET     "o_vga_hsync"   LOC = "B4";
+NET     "o_vga_vsync"   LOC = "A6";
+NET     "o_vga_rgb<0>"  LOC = "B3";
+NET     "o_vga_rgb<1>"  LOC = "C4";
+NET     "o_vga_rgb<2>"  LOC = "C5";
+
+
+#-------------------------------------------------------------------------------
+# Globals
+#
+NET "*" IOSTANDARD = LVCMOS33;
+
