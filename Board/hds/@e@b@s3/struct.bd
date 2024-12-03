@@ -568,19 +568,19 @@ value "C:\\dev\\DiD\\did-display\\Prefs\\..\\Board\\hds\\EBS3"
 )
 (vvPair
 variable "date"
-value "19.01.2024"
+value "03.12.2024"
 )
 (vvPair
 variable "day"
-value "ven."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "19"
+value "03"
 )
 (vvPair
 variable "entity_name"
@@ -604,11 +604,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "19.01.2024"
+value "03.12.2024"
 )
 (vvPair
 variable "graphical_source_group"
@@ -616,11 +616,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:21:39"
+value "11:46:46"
 )
 (vvPair
 variable "group"
@@ -628,7 +628,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -648,7 +648,7 @@ value "$SCRATCH_DIR/$DESIGN_NAME/Board/work"
 )
 (vvPair
 variable "mm"
-value "01"
+value "12"
 )
 (vvPair
 variable "module_name"
@@ -656,11 +656,11 @@ value "EBS3"
 )
 (vvPair
 variable "month"
-value "janv."
+value "déc."
 )
 (vvPair
 variable "month_long"
-value "janvier"
+value "décembre"
 )
 (vvPair
 variable "p"
@@ -696,7 +696,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:21:39"
+value "11:46:46"
 )
 (vvPair
 variable "unit"
@@ -704,7 +704,7 @@ value "EBS3"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -11569,7 +11569,7 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,1040"
+windowSize "-1928,-259,8,789"
 viewArea "8087,-3421,284785,145619"
 cachedDiagramExtent "11000,-400,214100,143600"
 pageSetupInfo (PageSetupInfo
@@ -11594,7 +11594,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 2923,0
+lastUid 2982,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
