@@ -173,7 +173,7 @@ value "C:\\dev\\DiD\\did-display\\Prefs\\..\\Display\\hds\\vgaDataCreator"
 )
 (vvPair
 variable "date"
-value "19.01.2024"
+value "10.01.2025"
 )
 (vvPair
 variable "day"
@@ -185,7 +185,7 @@ value "vendredi"
 )
 (vvPair
 variable "dd"
-value "19"
+value "10"
 )
 (vvPair
 variable "entity_name"
@@ -209,11 +209,11 @@ value "animage"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "19.01.2024"
+value "10.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -221,11 +221,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:15:29"
+value "13:58:31"
 )
 (vvPair
 variable "group"
@@ -233,7 +233,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -301,7 +301,7 @@ value "animage"
 )
 (vvPair
 variable "time"
-value "13:15:29"
+value "13:58:31"
 )
 (vvPair
 variable "unit"
@@ -309,7 +309,7 @@ value "vgaDataCreator"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -321,11 +321,11 @@ value "animage"
 )
 (vvPair
 variable "year"
-value "2024"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "24"
+value "25"
 )
 ]
 )
@@ -1004,8 +1004,7 @@ g_posXBitNb              = g_posXBitNb         ( positive )
 g_posYBitNb              = g_posYBitNb         ( positive )  
 c_addrBitNb              = c_addrBitNb         ( positive )  
 g_posXYBitNb             = g_posXYBitNb        ( positive )  
-g_pixelSquarePixelLength = c_pixelBoxRidge     ( positive )  
-"
+g_pixelSquarePixelLength = c_pixelBoxRidge     ( positive )  "
 )
 header ""
 )
@@ -2003,8 +2002,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,12800,54000,13600"
-st "SIGNAL dataIn     : std_ulogic_vector(g_vgaBitNb-1 DOWNTO 0)
-"
+st "SIGNAL dataIn     : std_ulogic_vector(g_vgaBitNb-1 DOWNTO 0)"
 )
 )
 *55 (Net
@@ -2023,8 +2021,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,12000,54500,12800"
-st "SIGNAL address    : std_ulogic_vector(c_addrBitNb-1 DOWNTO 0)
-"
+st "SIGNAL address    : std_ulogic_vector(c_addrBitNb-1 DOWNTO 0)"
 )
 )
 *56 (Net
@@ -2042,8 +2039,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4800,35000,5600"
-st "rst        : std_ulogic
-"
+st "rst        : std_ulogic"
 )
 )
 *57 (Net
@@ -2061,8 +2057,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,2400,35000,3200"
-st "clk        : std_ulogic
-"
+st "clk        : std_ulogic"
 )
 )
 *58 (Net
@@ -2080,8 +2075,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,14400,38500,15200"
-st "SIGNAL writeEn    : std_ulogic
-"
+st "SIGNAL writeEn    : std_ulogic"
 )
 )
 *59 (Net
@@ -2099,8 +2093,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,13600,38500,14400"
-st "SIGNAL en         : std_ulogic
-"
+st "SIGNAL en         : std_ulogic"
 )
 )
 *60 (Net
@@ -2119,8 +2112,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,5600,50500,6400"
-st "pixelValue : std_ulogic_vector(g_vgaBitNb-1 DOWNTO 0)
-"
+st "pixelValue : std_ulogic_vector(g_vgaBitNb-1 DOWNTO 0)"
 )
 )
 *61 (Net
@@ -2139,8 +2131,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,3200,46500,4000"
-st "posX       : unsigned(g_posXBitNb-1 DOWNTO 0)
-"
+st "posX       : unsigned(g_posXBitNb-1 DOWNTO 0)"
 )
 )
 *62 (Net
@@ -2159,8 +2150,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "22000,4000,46500,4800"
-st "posY       : unsigned(g_posYBitNb-1 DOWNTO 0)
-"
+st "posY       : unsigned(g_posYBitNb-1 DOWNTO 0)"
 )
 )
 *63 (Wire
@@ -2692,8 +2682,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,32,1921,1080"
-viewArea "-5800,-1800,109324,60760"
+windowSize "-1928,-259,8,789"
+viewArea "-5800,-1800,110344,60760"
 cachedDiagramExtent "-4200,0,107700,54700"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -2717,7 +2707,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-7000,0"
-lastUid 490,0
+lastUid 519,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

@@ -2,6 +2,14 @@
 The following script can be used to load a picture, resize it, and save the pixels values to a `.txt` file comprehensible by the `did-display/vgaDataCreator` block.
 The output file contains one pixel per line, under a 3bpp RGB format.
 
+## Changelog
+v1.1
+- ADD: version + welcome message
+- ADD: BMP image generation
+
+v1.0:
+- Initial release
+
 ## How-to
 ### Size consideration
 The `vgaDataCreator` block takes the generated `.txt` image to further display it. Since the memory is not big enough on the FPGAs, we need to resize it:
@@ -29,3 +37,17 @@ It fits the LFE5U-25F FPGA only. To target the Xilinx ones, modify `c_pixelBoxRi
 1. Go inside the `vgaDataCreator` block and modify the `bramBinAsciiInit` block generic `initFile` to `"$SIMULATION_DIR/myNewImage.txt"`
 
 Done
+
+### Technical details
+#### Resizing the image
+The base image is resized through __Pillow__ library.
+Such transform may bring out some artifacts (e.g. texts are blocky and with extra pixels around them).
+
+#### Transforming to 1BPP
+The transform to 1BPP simply iterate all pixels and for each channel, if its value is over 127, it is set to 255, else to 0.
+Due to the previous resizing method, some pixels may suddenly be a different color than the surrounding ones.
+
+#### Checking result
+Since all those artifacts may or not be due to the transform method of this tool, a __.bmp__ file is also generated, which can be used to check the generated image.
+
+If displayed through a viewer which does not super-sample the image, the result should be the same as the one displayed on the VGA screen.

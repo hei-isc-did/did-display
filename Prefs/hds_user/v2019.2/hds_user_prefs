@@ -1156,6 +1156,10 @@ first "UltraEdit"
 second "uedit32.exe \"%(p)/%(l)\""
 )
 (pair
+first "VSCode"
+second "code.exe \"%(p)\""
+)
+(pair
 first "WinEdit"
 second "WinEdit.exe \"%(p)\" -# %(l)"
 )
@@ -1196,6 +1200,10 @@ second "textpad.exe -r \"%(p)(%(l))\""
 (pair
 first "UltraEdit"
 second "uedit32.exe \"%(p)/%(l)\" /r"
+)
+(pair
+first "VSCode"
+second "code.exe \"%(p)\""
 )
 ]
 defaultTextPrintingCmd "Enscript"
