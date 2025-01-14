@@ -1140,8 +1140,8 @@ first "Notepad++"
 second "notepad++.exe \"%(p)\" -n%(l)"
 )
 (pair
-first "Sublime"
-second "sublime_text.exe \"%(p)\""
+first "Sublime Text"
+second "subl.exe \"%(p)\""
 )
 (pair
 first "Textpad 3.2"
@@ -1186,8 +1186,8 @@ first "Notepad++"
 second "notepad++.exe \"%(p)\" -n%(l) -ro"
 )
 (pair
-first "Sublime"
-second "sublime_text.exe \"%(p)\""
+first "Sublime Text"
+second "subl.exe \"%(p)\""
 )
 (pair
 first "Textpad 3.2"
@@ -1211,6 +1211,8 @@ win32DefaultEditor "Notepad++"
 win32DefaultViewer "Notepad++"
 unixDefaultEditor "Builtin"
 unixDefaultViewer "Builtin"
+defaultLanguage 11
+defaultVhdlDialect 11
 defaultVerilogDialect 5
 verilogSearchPath ""
 syscUserIncPath ""
@@ -1235,7 +1237,7 @@ verilogArchitectureExtensions [
 verilogDefaultSaveName "untitled"
 vhdlDefaultSaveName "untitled"
 toolbarVisibility [
-"SymbolWindow:FormatText"
+"BdWindow:FormatText"
 "AsmWindow:FormatText"
 "FcWindow:FormatText"
 "StdWindow:FormatText"
@@ -1282,9 +1284,9 @@ projectPaths [
 "C:\\work\\git\\Education\\eln\\projects\\student\\eln_chrono\\Prefs\\hds.hdp"
 "C:\\work\\git\\Education\\eln\\projects\\solution\\eln_chrono\\Prefs\\hds.hdp"
 "C:\\work\\edu\\eln\\project\\eln_chrono\\Prefs\\hds.hdp"
-"C:\\Users\\axel.amand\\Desktop\\eln-display\\Prefs\\hds.hdp"
-"C:\\dev\\eln-display\\Prefs\\hds.hdp"
-"C:\\dev\\did-display\\Prefs\\hds.hdp"
+"C:\\dev\\eln_chrono\\Prefs\\hds.hdp"
+"C:\\dev\\did-chrono\\Prefs\\hds.hdp"
+"C:\\dev\\DiD\\did-chrono\\Prefs\\hds.hdp"
 "C:\\dev\\DiD\\did-display\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
@@ -1524,7 +1526,7 @@ width 816
 height 1161
 )
 (PageSizeInfo
-name "Format papier personnalisé"
+name "Format papier personnalisï¿½"
 type 256
 width 783
 height 1013
@@ -1680,15 +1682,11 @@ second "concatenated"
 defaultCategoryTemplates [
 1
 "architecture.vhd"
-2
-"entity.vhd"
 3
 "combined.vhd"
 ]
 defaultCategoryTemplatesPrefs [
 1
-0
-2
 0
 3
 0
@@ -4306,7 +4304,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "796x623+880+172"
+logWindowGeometry "622x780+619+117"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -5224,18 +5222,22 @@ theList "HDL Files"
 columns [
 (TreeListVPData_Column
 name "Type"
+displayName ""
 width 140
 )
 (TreeListVPData_Column
 name "Extends"
+displayName ""
 width 100
 )
 (TreeListVPData_Column
 name "Size"
+displayName ""
 width 100
 )
 (TreeListVPData_Column
 name "Time Stamp"
+displayName ""
 width 120
 )
 ]
@@ -6278,6 +6280,16 @@ declHierarchy [
 activeViewpointIdx 0
 )
 (WorkTab
+name "Board"
+showingHierarchy 0
+openLibs [
+"Board"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
+(WorkTab
 name "Chronometer"
 showingHierarchy 0
 openLibs [
@@ -6290,16 +6302,6 @@ activeViewpointIdx 0
 name "Chronometer_test"
 showingHierarchy 0
 openLibs [
-]
-declHierarchy [
-]
-activeViewpointIdx 0
-)
-(WorkTab
-name "Board"
-showingHierarchy 0
-openLibs [
-"Board"
 ]
 declHierarchy [
 ]
@@ -6355,14 +6357,15 @@ activeSidePanelTab 2
 activeLibraryTab 1
 sidePanelSize 293
 showUnixHiddenFiles 0
-componentBrowserXpos 1121
-componentBrowserYpos 328
+componentBrowserXpos 569
 componentBrowserWidth 300
 componentBrowserHeight 340
 componentBrowserLibraryNames [
-"Display"
+"Common"
 "gates"
+"Chronometer"
 "sequential"
+"Lattice"
 ]
 )
 (SmPreferences
@@ -6446,6 +6449,8 @@ display "State Register Statements"
 status 1
 )
 ]
+vhdlScalarType "std_ulogic"
+vhdlVectorType "std_ulogic_vector"
 clockNameVaSet (VaSet
 )
 clockShapeVaSet (VaSet
@@ -6475,6 +6480,7 @@ recoveryShapeVaSet (VaSet
 vasetType 1
 fg "65535,0,0"
 )
+rstLevel 1
 stateShapeVaSet (VaSet
 vasetType 1
 fg "0,65535,65535"
@@ -6809,7 +6815,7 @@ cptPortOutName "Out0"
 cptPortInOutName "InOut0"
 cptPortBufferName "Buffer0"
 groupName "Group0"
-cptPortVhdlType "unsigned"
+cptPortVhdlType "std_ulogic"
 cptPortVerilogType "wire"
 cptPortVhdlBounds "(15 DOWNTO 0)"
 cptPortVerilogLb "15"
@@ -6827,7 +6833,6 @@ font "Courier New,8,0"
 )
 order 0
 editSignalScope 4
-promptGenOrderIndicator 0
 showUpdateWhereUsedPrompt 0
 )
 ]
