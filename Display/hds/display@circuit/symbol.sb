@@ -265,7 +265,7 @@ port (LogicalPort
 lang 11
 m 1
 decl (Decl
-n "testOut"
+n "ledsOut"
 t "std_uLogic_vector"
 b "(1 TO g_testLineNb)"
 o 14
@@ -950,19 +950,19 @@ value "C:\\dev\\DiD\\did-display\\Prefs\\..\\Display\\hds\\displayCircuit"
 )
 (vvPair
 variable "date"
-value "19.01.2024"
+value "14.01.2025"
 )
 (vvPair
 variable "day"
-value "ven."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "19"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -986,11 +986,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "19.01.2024"
+value "14.01.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -998,11 +998,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:44:05"
+value "17:07:34"
 )
 (vvPair
 variable "group"
@@ -1010,7 +1010,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE7860"
+value "WE10628"
 )
 (vvPair
 variable "language"
@@ -1078,7 +1078,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "10:44:05"
+value "17:07:34"
 )
 (vvPair
 variable "unit"
@@ -1086,7 +1086,7 @@ value "displayCircuit"
 )
 (vvPair
 variable "user"
-value "axel.amand"
+value "Axam"
 )
 (vvPair
 variable "version"
@@ -1098,11 +1098,11 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2024"
+value "2025"
 )
 (vvPair
 variable "yy"
-value "24"
+value "25"
 )
 ]
 )
@@ -1866,8 +1866,8 @@ ro 270
 va (VaSet
 font "Verdana,12,0"
 )
-xt "18300,0,19700,5600"
-st "testOut"
+xt "18300,0,19700,5700"
+st "ledsOut"
 ju 2
 blo "19500,0"
 tm "CptPortNameMgr"
@@ -1879,13 +1879,13 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,12800,77500,13600"
-st "testOut        : OUT    std_uLogic_vector (1 TO g_testLineNb) ;"
+st "ledsOut        : OUT    std_uLogic_vector (1 TO g_testLineNb) ;"
 )
 thePort (LogicalPort
 lang 11
 m 1
 decl (Decl
-n "testOut"
+n "ledsOut"
 t "std_uLogic_vector"
 b "(1 TO g_testLineNb)"
 o 14
@@ -2218,8 +2218,8 @@ tm "PackageList"
 )
 ]
 )
-windowSize "98,0,1822,1080"
-viewArea "-5500,-12800,105204,57648"
+windowSize "-1854,-251,-129,829"
+viewArea "-5500,-12800,105278,55576"
 cachedDiagramExtent "-13000,-1750,79500,43000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-23000,-11000"
@@ -2492,8 +2492,8 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1227,0
+lastUid 1273,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
-activeModelName "Symbol"
+activeModelName "Symbol:CDM"
 )
