@@ -1,3 +1,3 @@
-DEFAULT_FILE atom bramDualport_rtl.vhd
-DEFAULT_ARCHITECTURE atom rtl
+DEFAULT_FILE atom bramDualport_bhv.vhd
+DEFAULT_ARCHITECTURE atom bhv
 TOP_MARKER atom 1
