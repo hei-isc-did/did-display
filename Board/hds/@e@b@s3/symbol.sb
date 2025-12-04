@@ -806,7 +806,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:02:14"
+value "14:34:14"
 )
 (vvPair
 variable "group"
@@ -882,7 +882,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "14:02:14"
+value "14:34:14"
 )
 (vvPair
 variable "unit"
@@ -2471,6 +2471,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 943,0
+lastUid 989,0
 activeModelName "Symbol:CDM"
 )
