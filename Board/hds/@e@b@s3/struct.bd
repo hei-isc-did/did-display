@@ -568,19 +568,19 @@ value "C:\\dev\\DiD\\did-display\\Prefs\\..\\Board\\hds\\EBS3"
 )
 (vvPair
 variable "date"
-value "14.01.2025"
+value "04.12.2025"
 )
 (vvPair
 variable "day"
-value "mar."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "04"
 )
 (vvPair
 variable "entity_name"
@@ -608,7 +608,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.01.2025"
+value "04.12.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -620,7 +620,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:06:13"
+value "14:02:14"
 )
 (vvPair
 variable "group"
@@ -648,7 +648,7 @@ value "$SCRATCH_DIR/$DESIGN_NAME/Board/work"
 )
 (vvPair
 variable "mm"
-value "01"
+value "12"
 )
 (vvPair
 variable "module_name"
@@ -656,11 +656,11 @@ value "EBS3"
 )
 (vvPair
 variable "month"
-value "janv."
+value "déc."
 )
 (vvPair
 variable "month_long"
-value "janvier"
+value "décembre"
 )
 (vvPair
 variable "p"
@@ -696,7 +696,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "17:06:13"
+value "14:02:14"
 )
 (vvPair
 variable "unit"
@@ -3423,8 +3423,7 @@ uid 1179,0
 va (VaSet
 )
 xt "13000,12600,28700,13800"
-st "iGCK_clk          : std_ulogic
-"
+st "iGCK_clk          : std_ulogic"
 )
 )
 *87 (Net
@@ -3440,8 +3439,7 @@ uid 1183,0
 va (VaSet
 )
 xt "13000,50600,34600,51800"
-st "SIGNAL button2Synch      : std_uLogic
-"
+st "SIGNAL button2Synch      : std_uLogic"
 )
 )
 *88 (Net
@@ -3458,8 +3456,7 @@ uid 1185,0
 va (VaSet
 )
 xt "13000,25400,40200,26600"
-st "o_leds_n          : std_ulogic_vector(1 to g_ledNb)
-"
+st "o_leds_n          : std_ulogic_vector(1 to g_ledNb)"
 )
 )
 *89 (Net
@@ -3475,8 +3472,7 @@ uid 1187,0
 va (VaSet
 )
 xt "13000,56200,34500,57400"
-st "SIGNAL lsig_resetSynch   : std_ulogic
-"
+st "SIGNAL lsig_resetSynch   : std_ulogic"
 )
 )
 *90 (Net
@@ -3492,8 +3488,7 @@ uid 1189,0
 va (VaSet
 )
 xt "13000,64600,31400,65800"
-st "SIGNAL rst               : std_ulogic
-"
+st "SIGNAL rst               : std_ulogic"
 )
 )
 *91 (Net
@@ -3509,8 +3504,7 @@ uid 1191,0
 va (VaSet
 )
 xt "13000,24200,28000,25400"
-st "o_led2            : std_ulogic
-"
+st "o_led2            : std_ulogic"
 )
 )
 *92 (Net
@@ -3526,8 +3520,7 @@ uid 1193,0
 va (VaSet
 )
 xt "13000,23000,28300,24200"
-st "o_led1            : std_uLogic
-"
+st "o_led1            : std_uLogic"
 )
 )
 *93 (Net
@@ -3543,8 +3536,7 @@ uid 1195,0
 va (VaSet
 )
 xt "13000,57400,35100,58600"
-st "SIGNAL lsig_resetSynch_n : std_ulogic
-"
+st "SIGNAL lsig_resetSynch_n : std_ulogic"
 )
 )
 *94 (Net
@@ -3561,8 +3553,7 @@ uid 1197,0
 va (VaSet
 )
 xt "13000,15000,47600,16200"
-st "i_buttons_n       : std_ulogic_vector(g_buttonNb-1 DOWNTO 0)
-"
+st "i_buttons_n       : std_ulogic_vector(g_buttonNb-1 DOWNTO 0)"
 )
 )
 *95 (Net
@@ -3578,8 +3569,7 @@ uid 1201,0
 va (VaSet
 )
 xt "13000,13800,29000,15000"
-st "iRST_rst_n        : std_ulogic
-"
+st "iRST_rst_n        : std_ulogic"
 )
 )
 *96 (Net
@@ -3595,8 +3585,7 @@ uid 1203,0
 va (VaSet
 )
 xt "13000,51800,34600,53000"
-st "SIGNAL button3Synch      : std_uLogic
-"
+st "SIGNAL button3Synch      : std_uLogic"
 )
 )
 *97 (Net
@@ -3613,8 +3602,7 @@ uid 1205,0
 va (VaSet
 )
 xt "13000,63400,32000,64600"
-st "SIGNAL pixelClk          : std_logic
-"
+st "SIGNAL pixelClk          : std_logic"
 )
 )
 *98 (Net
@@ -3630,8 +3618,7 @@ uid 1207,0
 va (VaSet
 )
 xt "13000,19400,29300,20600"
-st "o_lcd_rst_n       : std_uLogic
-"
+st "o_lcd_rst_n       : std_uLogic"
 )
 )
 *99 (Net
@@ -3647,8 +3634,7 @@ uid 1209,0
 va (VaSet
 )
 xt "13000,53000,34600,54200"
-st "SIGNAL button4Synch      : std_uLogic
-"
+st "SIGNAL button4Synch      : std_uLogic"
 )
 )
 *100 (Net
@@ -3664,8 +3650,7 @@ uid 1211,0
 va (VaSet
 )
 xt "13000,20600,28800,21800"
-st "o_lcd_scl         : std_uLogic
-"
+st "o_lcd_scl         : std_uLogic"
 )
 )
 *101 (Net
@@ -3682,8 +3667,7 @@ uid 1213,0
 va (VaSet
 )
 xt "13000,30200,28800,31400"
-st "o_vga_pc          : std_ulogic
-"
+st "o_vga_pc          : std_ulogic"
 )
 )
 *102 (Net
@@ -3700,8 +3684,7 @@ uid 1215,0
 va (VaSet
 )
 xt "13000,32600,29700,33800"
-st "o_vga_vsync       : std_ulogic
-"
+st "o_vga_vsync       : std_ulogic"
 )
 )
 *103 (Net
@@ -3717,8 +3700,7 @@ uid 1217,0
 va (VaSet
 )
 xt "13000,58600,32300,59800"
-st "SIGNAL out1              : std_uLogic
-"
+st "SIGNAL out1              : std_uLogic"
 )
 )
 *104 (Net
@@ -3734,8 +3716,7 @@ uid 1219,0
 va (VaSet
 )
 xt "13000,21800,28500,23000"
-st "o_lcd_si          : std_uLogic
-"
+st "o_lcd_si          : std_uLogic"
 )
 )
 *105 (Net
@@ -3752,8 +3733,7 @@ uid 1221,0
 va (VaSet
 )
 xt "13000,27800,29700,29000"
-st "o_vga_hsync       : std_ulogic
-"
+st "o_vga_hsync       : std_ulogic"
 )
 )
 *106 (Net
@@ -3769,8 +3749,7 @@ uid 1223,0
 va (VaSet
 )
 xt "13000,59800,32300,61000"
-st "SIGNAL out2              : std_uLogic
-"
+st "SIGNAL out2              : std_uLogic"
 )
 )
 *107 (Net
@@ -3786,8 +3765,7 @@ uid 1225,0
 va (VaSet
 )
 xt "13000,49400,34600,50600"
-st "SIGNAL button1Synch      : std_uLogic
-"
+st "SIGNAL button1Synch      : std_uLogic"
 )
 )
 *108 (Net
@@ -3803,8 +3781,7 @@ uid 1227,0
 va (VaSet
 )
 xt "13000,61000,32300,62200"
-st "SIGNAL out3              : std_uLogic
-"
+st "SIGNAL out3              : std_uLogic"
 )
 )
 *109 (Net
@@ -3820,8 +3797,7 @@ uid 1229,0
 va (VaSet
 )
 xt "13000,62200,32300,63400"
-st "SIGNAL out4              : std_uLogic
-"
+st "SIGNAL out4              : std_uLogic"
 )
 )
 *110 (Net
@@ -3837,8 +3813,7 @@ uid 1231,0
 va (VaSet
 )
 xt "13000,17000,28900,18200"
-st "o_lcd_a0          : std_uLogic
-"
+st "o_lcd_a0          : std_uLogic"
 )
 )
 *111 (Net
@@ -3856,8 +3831,7 @@ uid 1233,0
 va (VaSet
 )
 xt "13000,31400,47500,32600"
-st "o_vga_rgb         : std_ulogic_vector(g_vgaBitNb-1 DOWNTO 0)
-"
+st "o_vga_rgb         : std_ulogic_vector(g_vgaBitNb-1 DOWNTO 0)"
 )
 )
 *112 (Net
@@ -3873,8 +3847,7 @@ uid 1235,0
 va (VaSet
 )
 xt "13000,18200,29800,19400"
-st "o_lcd_cs1_n       : std_uLogic
-"
+st "o_lcd_cs1_n       : std_uLogic"
 )
 )
 *113 (Net
@@ -3891,8 +3864,7 @@ uid 1237,0
 va (VaSet
 )
 xt "13000,26600,28800,27800"
-st "o_vga_de          : std_ulogic
-"
+st "o_vga_de          : std_ulogic"
 )
 )
 *114 (Net
@@ -3908,8 +3880,7 @@ uid 1239,0
 va (VaSet
 )
 xt "13000,55000,32800,56200"
-st "SIGNAL logic_1           : std_uLogic
-"
+st "SIGNAL logic_1           : std_uLogic"
 )
 )
 *115 (Net
@@ -3925,8 +3896,7 @@ uid 1241,0
 va (VaSet
 )
 xt "13000,29000,28900,30200"
-st "o_vga_int         : std_uLogic
-"
+st "o_vga_int         : std_uLogic"
 )
 )
 *116 (Net
@@ -3943,8 +3913,7 @@ uid 1243,0
 va (VaSet
 )
 xt "13000,47400,34800,48600"
-st "SIGNAL LOCKED_OUT        : std_logic
-"
+st "SIGNAL LOCKED_OUT        : std_logic"
 )
 )
 *117 (SaComponent
@@ -4296,8 +4265,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "13000,65800,33000,66600"
-st "SIGNAL testMode          : std_uLogic
-"
+st "SIGNAL testMode          : std_uLogic"
 )
 )
 *130 (SaComponent
@@ -4770,8 +4738,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "13000,48600,33000,49400"
-st "SIGNAL T                 : std_uLogic
-"
+st "SIGNAL T                 : std_uLogic"
 )
 )
 *147 (PortIoOut
@@ -4832,8 +4799,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "13000,16200,29500,17000"
-st "heartbeat         : std_uLogic
-"
+st "heartbeat         : std_uLogic"
 )
 )
 *149 (SaComponent
@@ -8247,8 +8213,7 @@ g_vgaVResolution         = c_vgaVResolution            ( positive )
 g_vgaVFrontPorch         = c_vgaVFrontPorch            ( positive )  
 g_vgaVBackPorch          = c_vgaVBackPorch             ( positive )  
 g_vgaVSync               = c_vgaVSync                  ( positive )  
-g_lcdAsciiBitNb          = c_lcdAsciiBitNb             ( positive )  
-"
+g_lcdAsciiBitNb          = c_lcdAsciiBitNb             ( positive )  "
 )
 header ""
 )
@@ -8360,8 +8325,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "13000,54200,46500,55000"
-st "SIGNAL ledsOut           : std_uLogic_vector(1 TO c_testLineNb)
-"
+st "SIGNAL ledsOut           : std_uLogic_vector(1 TO c_testLineNb)"
 )
 )
 *262 (Wire
@@ -11606,7 +11570,7 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-1920,-251,1,797"
-viewArea "8100,-3400,285641,147420"
+viewArea "8075,-3416,281916,145393"
 cachedDiagramExtent "11000,-400,214100,143600"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -11630,7 +11594,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 3135,0
+lastUid 3253,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -12645,8 +12609,8 @@ constant c_vgaHFrontPorch : positive := 16;
 constant c_vgaHBackPorch : positive := 48;
 constant c_vgaHSync : positive := 96;
 constant c_vgaVResolution : positive := 480;
-constant c_vgaVFrontPorch : positive := 11;
-constant c_vgaVBackPorch : positive := 32;
+constant c_vgaVFrontPorch : positive := 10;
+constant c_vgaVBackPorch : positive := 33;
 constant c_vgaVSync : positive := 2;
 constant c_lcdAsciiBitNb : positive := 7;"
 tm "BdDeclarativeTextMgr"

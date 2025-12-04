@@ -313,19 +313,19 @@ value "C:\\dev\\DiD\\did-display\\Prefs\\..\\Display\\hds\\displayCircuit"
 )
 (vvPair
 variable "date"
-value "14.01.2025"
+value "04.12.2025"
 )
 (vvPair
 variable "day"
-value "mar."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "04"
 )
 (vvPair
 variable "entity_name"
@@ -353,7 +353,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.01.2025"
+value "04.12.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -365,7 +365,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:07:55"
+value "13:45:49"
 )
 (vvPair
 variable "group"
@@ -393,7 +393,7 @@ value "$SCRATCH_DIR/$DESIGN_NAME/Display/work"
 )
 (vvPair
 variable "mm"
-value "01"
+value "12"
 )
 (vvPair
 variable "module_name"
@@ -401,11 +401,11 @@ value "displayCircuit"
 )
 (vvPair
 variable "month"
-value "janv."
+value "déc."
 )
 (vvPair
 variable "month_long"
-value "janvier"
+value "décembre"
 )
 (vvPair
 variable "p"
@@ -441,7 +441,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "17:07:55"
+value "13:45:49"
 )
 (vvPair
 variable "unit"
@@ -7597,8 +7597,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-1920,-251,1,797"
-viewArea "-214334,-75427,83509,86426"
+windowSize "-1928,-259,8,789"
+viewArea "-214189,-75338,83247,84874"
 cachedDiagramExtent "-210000,-71000,80000,43000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\vmenpprint1.hevs.ch\\VS-FOLLOWME-PRN,winspool,"
@@ -7624,7 +7624,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-212000,-73000"
-lastUid 2988,0
+lastUid 3162,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

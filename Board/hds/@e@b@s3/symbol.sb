@@ -754,19 +754,19 @@ value "C:\\dev\\DiD\\did-display\\Prefs\\..\\Board\\hds\\EBS3"
 )
 (vvPair
 variable "date"
-value "14.01.2025"
+value "04.12.2025"
 )
 (vvPair
 variable "day"
-value "mar."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "14"
+value "04"
 )
 (vvPair
 variable "entity_name"
@@ -794,7 +794,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "14.01.2025"
+value "04.12.2025"
 )
 (vvPair
 variable "graphical_source_group"
@@ -806,7 +806,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:06:13"
+value "14:02:14"
 )
 (vvPair
 variable "group"
@@ -834,7 +834,7 @@ value "$SCRATCH_DIR/$DESIGN_NAME/Board/work"
 )
 (vvPair
 variable "mm"
-value "01"
+value "12"
 )
 (vvPair
 variable "module_name"
@@ -842,11 +842,11 @@ value "EBS3"
 )
 (vvPair
 variable "month"
-value "janv."
+value "déc."
 )
 (vvPair
 variable "month_long"
-value "janvier"
+value "décembre"
 )
 (vvPair
 variable "p"
@@ -882,7 +882,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "17:06:13"
+value "14:02:14"
 )
 (vvPair
 variable "unit"
@@ -2471,6 +2471,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 897,0
+lastUid 943,0
 activeModelName "Symbol:CDM"
 )
