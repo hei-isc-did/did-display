@@ -313,7 +313,7 @@ value "C:\\dev\\DiD\\did-display\\Prefs\\..\\Display\\hds\\displayCircuit"
 )
 (vvPair
 variable "date"
-value "04.12.2025"
+value "08.01.2026"
 )
 (vvPair
 variable "day"
@@ -325,7 +325,7 @@ value "jeudi"
 )
 (vvPair
 variable "dd"
-value "04"
+value "08"
 )
 (vvPair
 variable "entity_name"
@@ -353,7 +353,7 @@ value "Axam"
 )
 (vvPair
 variable "graphical_source_date"
-value "04.12.2025"
+value "08.01.2026"
 )
 (vvPair
 variable "graphical_source_group"
@@ -365,7 +365,7 @@ value "WE10628"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:45:49"
+value "10:36:53"
 )
 (vvPair
 variable "group"
@@ -393,7 +393,7 @@ value "$SCRATCH_DIR/$DESIGN_NAME/Display/work"
 )
 (vvPair
 variable "mm"
-value "12"
+value "01"
 )
 (vvPair
 variable "module_name"
@@ -401,11 +401,11 @@ value "displayCircuit"
 )
 (vvPair
 variable "month"
-value "déc."
+value "janv."
 )
 (vvPair
 variable "month_long"
-value "décembre"
+value "janvier"
 )
 (vvPair
 variable "p"
@@ -441,7 +441,7 @@ value "studentVersion"
 )
 (vvPair
 variable "time"
-value "13:45:49"
+value "10:36:53"
 )
 (vvPair
 variable "unit"
@@ -461,11 +461,11 @@ value "studentVersion"
 )
 (vvPair
 variable "year"
-value "2025"
+value "2026"
 )
 (vvPair
 variable "yy"
-value "25"
+value "26"
 )
 ]
 )
@@ -3386,7 +3386,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-64400,-173000,-63600"
-st "start          : std_uLogic"
+st "start          : std_uLogic
+"
 )
 )
 *88 (Net
@@ -3403,7 +3404,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-63600,-173000,-62800"
-st "stop           : std_uLogic"
+st "stop           : std_uLogic
+"
 )
 )
 *89 (Net
@@ -3420,7 +3422,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-68400,-173000,-67600"
-st "button3        : std_uLogic"
+st "button3        : std_uLogic
+"
 )
 )
 *90 (Net
@@ -3438,7 +3441,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-67600,-173000,-66800"
-st "button4        : std_uLogic"
+st "button4        : std_uLogic
+"
 )
 )
 *91 (Net
@@ -3455,7 +3459,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-62000,-173000,-61200"
-st "lcd_a0         : std_uLogic"
+st "lcd_a0         : std_uLogic
+"
 )
 )
 *92 (Net
@@ -3472,7 +3477,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-61200,-173000,-60400"
-st "lcd_cs1_n      : std_uLogic"
+st "lcd_cs1_n      : std_uLogic
+"
 )
 )
 *93 (Net
@@ -3489,7 +3495,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-60400,-173000,-59600"
-st "lcd_rst_n      : std_uLogic"
+st "lcd_rst_n      : std_uLogic
+"
 )
 )
 *94 (Net
@@ -3506,7 +3513,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-59600,-173000,-58800"
-st "lcd_scl        : std_uLogic"
+st "lcd_scl        : std_uLogic
+"
 )
 )
 *95 (Net
@@ -3524,7 +3532,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-56400,-173000,-55600"
-st "vga_hsync      : std_uLogic"
+st "vga_hsync      : std_uLogic
+"
 )
 )
 *96 (Net
@@ -3543,7 +3552,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-54000,-157500,-53200"
-st "vga_rgb        : std_ulogic_vector(g_vgaBitNb-1 DOWNTO 0)"
+st "vga_rgb        : std_ulogic_vector(g_vgaBitNb-1 DOWNTO 0)
+"
 )
 )
 *97 (Net
@@ -3561,7 +3571,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-62800,-173000,-62000"
-st "testMode       : std_uLogic"
+st "testMode       : std_uLogic
+"
 )
 )
 *98 (Net
@@ -3579,7 +3590,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-54800,-173000,-54000"
-st "vga_pixelClock : std_uLogic"
+st "vga_pixelClock : std_uLogic
+"
 )
 )
 *99 (Net
@@ -3597,7 +3609,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-57200,-173000,-56400"
-st "vga_dataEnable : std_uLogic"
+st "vga_dataEnable : std_uLogic
+"
 )
 )
 *100 (Net
@@ -3615,7 +3628,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-47600,-151500,-46800"
-st "SIGNAL ascii          : std_ulogic_vector(g_lcdAsciiBitNb-1 downto 0)"
+st "SIGNAL ascii          : std_ulogic_vector(g_lcdAsciiBitNb-1 downto 0)
+"
 )
 )
 *101 (Net
@@ -3632,7 +3646,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-46800,-169500,-46000"
-st "SIGNAL busy           : std_ulogic"
+st "SIGNAL busy           : std_ulogic
+"
 )
 )
 *102 (Net
@@ -3650,7 +3665,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-53200,-173000,-52400"
-st "vga_vsync      : std_uLogic"
+st "vga_vsync      : std_uLogic
+"
 )
 )
 *103 (Net
@@ -3667,7 +3683,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-44400,-169500,-43600"
-st "SIGNAL send           : std_ulogic"
+st "SIGNAL send           : std_ulogic
+"
 )
 )
 *104 (Net
@@ -3684,7 +3701,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-58800,-173000,-58000"
-st "lcd_si         : std_uLogic"
+st "lcd_si         : std_uLogic
+"
 )
 )
 *105 (CommentText
@@ -3892,7 +3910,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-66000,-173000,-65200"
-st "pixelClk       : std_ulogic"
+st "pixelClk       : std_ulogic
+"
 )
 )
 *112 (PortIoOut
@@ -3954,7 +3973,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-55600,-173000,-54800"
-st "vga_int        : std_ulogic"
+st "vga_int        : std_ulogic
+"
 )
 )
 *114 (Panel
@@ -4419,7 +4439,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-45200,-158000,-44400"
-st "SIGNAL pixelPosY      : unsigned(c_posYBitNb-1 DOWNTO 0)"
+st "SIGNAL pixelPosY      : unsigned(c_posYBitNb-1 DOWNTO 0)
+"
 )
 )
 *130 (Net
@@ -4438,7 +4459,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-46000,-158000,-45200"
-st "SIGNAL pixelPosX      : unsigned(c_posXBitNb-1 DOWNTO 0)"
+st "SIGNAL pixelPosX      : unsigned(c_posXBitNb-1 DOWNTO 0)
+"
 )
 )
 *131 (CommentText
@@ -4530,7 +4552,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-66800,-173000,-66000"
-st "lcdClock       : std_ulogic"
+st "lcdClock       : std_ulogic
+"
 )
 )
 *134 (PortIoIn
@@ -4593,7 +4616,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-65200,-173000,-64400"
-st "reset          : std_ulogic"
+st "reset          : std_ulogic
+"
 )
 )
 *136 (SaComponent
@@ -5298,7 +5322,7 @@ vasetType 1
 fg "65535,65535,65535"
 lineColor "65535,65535,65535"
 )
-xt "-35000,-58000,18000,-39000"
+xt "-39000,-63000,33000,-41000"
 )
 autoResize 1
 oxt "0,0,15000,5000"
@@ -5308,27 +5332,29 @@ va (VaSet
 fg "0,0,32768"
 font "Fira Code,10,0"
 )
-xt "-34800,-57800,17400,-39600"
+xt "-38800,-62800,31800,-42000"
 st "
 When developing, the first time you flash the FPGA to test your circuit, display a still color on
 the output to ensure your timings are all OK and leave the below blocks on the side.
+Check the screen recognized resolution and frequency.
 
-Only then, use this block. It contains data for a picture.
-To use it, remove the yellow block named EB1 and feed it the signals pixelPosX and pixelPosY.
+Then, use this block. It contains data for a picture.
+To use it, delete the yellow block named EB1 and feed it the signals pixelPosX and pixelPosY.
 It expects values from 0 to 639 for X, and 0 to 479 for Y (the true pixel location of the image).
+!!! Be sure to change the Y value only once per line, not resetting it to 0 or other values inbetween. Else the image may give wrong pixel data. !!! 
 Flash your project and check if the picture is still and not distorted.
-Else, your counters may be desynchronizing and you will have to fix them.
 
-Finally, you have to create a custom image by yourself, made of logic (with state machines, counters ...)
+Finally, create a custom image by yourself, made of logic (with state machines, counters ...)
 and NOT by simply replacing the image file in the vgaDataCreator block.
+This should show all possible colors on screen in a TV test card fashion.
 
 Once you have tested your own block, you can display both your calculated picture and the one generated
 by the vgaDataCreator by e.g. switching source when the user clicks on a button.
 
 "
 tm "CommentText"
-visibleHeight 19000
-visibleWidth 53000
+visibleHeight 22000
+visibleWidth 72000
 )
 )
 *159 (PortIoOut
@@ -5382,7 +5408,7 @@ decl (Decl
 n "ledsOut"
 t "std_uLogic_vector"
 b "(1 TO g_testLineNb)"
-o 26
+o 14
 suid 58,0
 )
 declText (MLText
@@ -5391,7 +5417,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-188000,-58000,-159500,-57200"
-st "ledsOut        : std_uLogic_vector(1 TO g_testLineNb)"
+st "ledsOut        : std_uLogic_vector(1 TO g_testLineNb)
+"
 )
 )
 *161 (Wire
@@ -7597,8 +7624,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-1928,-259,8,789"
-viewArea "-214189,-75338,83247,84874"
+windowSize "-1920,-251,1,797"
+viewArea "-214334,-75427,83509,86426"
 cachedDiagramExtent "-210000,-71000,80000,43000"
 pageSetupInfo (PageSetupInfo
 ptrCmd "\\\\vmenpprint1.hevs.ch\\VS-FOLLOWME-PRN,winspool,"
@@ -7624,7 +7651,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "-212000,-73000"
-lastUid 3162,0
+lastUid 3249,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -9007,7 +9034,7 @@ decl (Decl
 n "ledsOut"
 t "std_uLogic_vector"
 b "(1 TO g_testLineNb)"
-o 26
+o 14
 suid 58,0
 )
 )
@@ -9065,25 +9092,25 @@ uid 339,0
 )
 *298 (MRCItem
 litem &268
-pos 6
+pos 5
 dimension 20
 uid 1007,0
 )
 *299 (MRCItem
 litem &269
-pos 7
+pos 6
 dimension 20
 uid 1009,0
 )
 *300 (MRCItem
 litem &270
-pos 8
+pos 7
 dimension 20
 uid 1011,0
 )
 *301 (MRCItem
 litem &271
-pos 9
+pos 8
 dimension 20
 uid 1013,0
 )
@@ -9113,31 +9140,31 @@ uid 1023,0
 )
 *306 (MRCItem
 litem &276
-pos 14
+pos 13
 dimension 20
 uid 1027,0
 )
 *307 (MRCItem
 litem &277
-pos 16
+pos 15
 dimension 20
 uid 1031,0
 )
 *308 (MRCItem
 litem &278
-pos 10
+pos 9
 dimension 20
 uid 1035,0
 )
 *309 (MRCItem
 litem &279
-pos 13
+pos 12
 dimension 20
 uid 1037,0
 )
 *310 (MRCItem
 litem &280
-pos 12
+pos 11
 dimension 20
 uid 1039,0
 )
@@ -9155,7 +9182,7 @@ uid 1043,0
 )
 *313 (MRCItem
 litem &283
-pos 15
+pos 14
 dimension 20
 uid 1045,0
 )
@@ -9173,13 +9200,13 @@ uid 1049,0
 )
 *316 (MRCItem
 litem &286
-pos 17
+pos 16
 dimension 20
 uid 1327,0
 )
 *317 (MRCItem
 litem &287
-pos 18
+pos 17
 dimension 20
 uid 1329,0
 )
@@ -9197,19 +9224,19 @@ uid 2134,0
 )
 *320 (MRCItem
 litem &290
-pos 19
+pos 18
 dimension 20
 uid 2364,0
 )
 *321 (MRCItem
 litem &291
-pos 11
+pos 10
 dimension 20
 uid 2366,0
 )
 *322 (MRCItem
 litem &292
-pos 5
+pos 19
 dimension 20
 uid 2973,0
 )
