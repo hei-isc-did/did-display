@@ -79,7 +79,7 @@ LOCATE COMP "i_buttons_n[2]" SITE "E5"  ; # PP1 21
 LOCATE COMP "i_buttons_n[3]" SITE "E6"  ; # PP1 23
 #LOCATE COMP "" SITE "E7"  ; # PP1 25
 
-### PP1 ### HEB-LCD V2
+#### PP1 ### HEB-LCD V2
 #LOCATE COMP "o_lcd_cs1_n" SITE "A9" ;
 #LOCATE COMP "o_lcd_rst_n" SITE "D10" ;
 #LOCATE COMP "o_lcd_a0"    SITE "A10" ;
@@ -101,6 +101,32 @@ LOCATE COMP "i_buttons_n[3]" SITE "E6"  ; # PP1 23
 #IOBUF  PORT "i_buttons_n[2]" PULLMODE=UP ;
 #LOCATE COMP "i_buttons_n[3]" SITE "E7"  ; # PP1 25
 #IOBUF  PORT "i_buttons_n[3]" PULLMODE=UP ;
+
+#### PP1 - Demonstrator version with 8 leds PMOD + 4 buttons PMOD through splitter
+# # Since buttons polarity is inverted, need to change:
+# # - "btns <= i_buttons_n;" in E_I block
+# # - "o_leds_n <= ledsOut(1 to g_ledNb);" in E_O block
+#LOCATE COMP "o_leds_n[4]" SITE "A9" ;   # PP1 1
+#LOCATE COMP "o_leds_n[8]" SITE "D10" ;  # PP1 2
+#LOCATE COMP "o_leds_n[3]" SITE "A10" ;  # PP1 3
+#LOCATE COMP "o_leds_n[7]" SITE "C10" ;  # PP1 4
+#LOCATE COMP "o_leds_n[2]" SITE "B10" ;  # PP1 5
+#LOCATE COMP "o_leds_n[6]" SITE "C12" ;  # PP1 6
+#LOCATE COMP "o_leds_n[1]" SITE "B12" ;  # PP1 7
+#LOCATE COMP "o_leds_n[5]" SITE "D13" ;  # PP1 8
+##LOCATE COMP "PP1[9]" SITE "A13" ;   # PP1 9
+##LOCATE COMP "PP1[11]" SITE "M5" ;   # PP1 11
+#LOCATE COMP "i_buttons_n[0]" SITE "L5" ;   # PP1 13
+#IOBUF  PORT "i_buttons_n[0]" PULLMODE=DOWN ;
+##LOCATE COMP "PP1[15]" SITE "K5" ;   # PP1 15
+#LOCATE COMP "i_buttons_n[1]" SITE "H5" ;   # PP1 17
+#IOBUF  PORT "i_buttons_n[1]" PULLMODE=DOWN ;
+##LOCATE COMP "PP1[19]" SITE "E8" ;   # PP1 19
+#LOCATE COMP "i_buttons_n[2]" SITE "E5" ;   # PP1 21
+#IOBUF  PORT "i_buttons_n[2]" PULLMODE=DOWN ;
+##LOCATE COMP "PP1[23]" SITE "E6" ;   # PP1 23
+#LOCATE COMP "i_buttons_n[3]" SITE "E7" ;   # PP1 25
+#IOBUF  PORT "i_buttons_n[3]" PULLMODE=DOWN ;
 
 
 ### PP2 ###
